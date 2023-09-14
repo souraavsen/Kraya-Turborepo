@@ -1,0 +1,251 @@
+/*=============================== All Custom CSS ===============================*/
+.max_page_width {
+  max-width: 120rem;
+  margin: auto;
+}
+
+/* a:hover,
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+a,
+button {
+  transition: opacity 0.2s ease-in-out;
+} */
+
+.btn_primary {
+  color: #f1f1f1;
+  background: linear-gradient(
+    270deg,
+    rgb(94, 177, 251) 0%,
+    rgb(97, 118, 252) 49.31%,
+    rgb(159, 144, 251) 100%
+  );
+  transition: all 1s ease-in;
+}
+
+.search_container {
+  background-image: url("./assets/Images/search_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.search_container_overlay {
+  background: linear-gradient(
+    180deg,
+    #000 0%,
+    #000 45.1%,
+    rgba(12, 10, 10, 0.36) 65.42%,
+    rgba(21, 17, 17, 0) 100%
+  );
+  mix-blend-mode: overlay;
+}
+
+.shop_pagination {
+  width: 20px;
+  height: 2px;
+  transition: width 0.2s ease-in-out;
+  background-color: #000;
+}
+
+.shop_pagination_active {
+  width: 52px;
+  height: 2px;
+  transition: width 0.2s ease-in-out;
+  background-color: #000;
+}
+
+/*=============================== All Custom Antd CSS ===============================*/
+.select_navbar_language {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.ant-modal-content {
+  padding: 0 !important;
+}
+
+.ant-select-item-option-active,
+.ant-select-item-option-selected {
+  background-color: transparent !important;
+  font-weight: 700 !important;
+}
+
+.ant-select-arrow {
+  color: inherit !important;
+  font-size: inherit !important;
+  padding-bottom: 8px !important;
+}
+
+.price_switcher > .ant-switch .ant-switch-handle::before {
+  position: absolute;
+  top: 0;
+  inset-inline-end: 0;
+  bottom: 0;
+  inset-inline-start: 0;
+  background-color: #152c5b;
+  border-radius: 50%;
+  padding: 0.7rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 35, 11, 0.2);
+  transition: all 0.3s ease-in-out;
+  content: "";
+}
+
+/* .price_switcher */
+.price_switcher > .ant-switch-checked {
+  padding: 0.8rem;
+  background-color: #f2f2ff !important;
+}
+
+.price_switcher > .ant-switch,
+.price_switcher > .ant-switch:hover {
+  padding: 0.8rem;
+  background-color: #f2f2ff !important;
+}
+
+.ant-input {
+  background: inherit;
+}
+
+/* Custom CSS for pagination */
+.ant-pagination-item {
+  border: 1px solid #1890ff;
+  background-color: #fff;
+  color: #1890ff;
+  margin-right: 4px;
+}
+
+.ant-pagination-item-active {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+/* Custom CSS for pagination */
+.ant-pagination-item {
+  border: none !important;
+  background-color: inherit !important;
+  color: #5f6d7e !important;
+  margin-right: 4px;
+}
+
+.ant-pagination-item-active {
+  background-color: inherit !important;
+  color: #437ef7;
+}
+
+.ant-table-pagination-center,
+.ant-pagination {
+  position: relative !important;
+}
+
+.ant-pagination-prev {
+  position: absolute;
+  left: 1rem;
+}
+
+.ant-pagination-next {
+  position: absolute;
+  right: 1rem;
+}
+
+.ant-table-row {
+  background: #fafafa !important;
+}
+
+.activity_logs .ant-modal {
+  box-shadow: none; /* Set box-shadow to none to remove it */
+}
+
+.ant-breadcrumb a {
+  color: var(--primary-content-color) !important;
+  font-style: normal;
+  font-weight: inherit !important;
+  line-height: normal;
+}
+
+.ant-breadcrumb a:hover {
+  background: transparent;
+  font-weight: 500;
+}
+
+.ant-breadcrumb-separator {
+  color: var(--primary-content-color) !important;
+  background: transparent;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: inherit !important;
+  line-height: normal;
+}
+
+.ant-table,
+.ant-modal-content {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.ant-select-dropdown {
+  background-color: var(--primary-bg-color) !important;
+  color: var(--primary-content-color) !important;
+}
+
+.ant-select-item-option-content,
+.ant-select-selection-item-remove {
+  color: var(--primary-content-color) !important;
+}
+
+.ant-select-selection-item{
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: var(--primary-content-color);
+}
+
+
+
+.ant-table-thead > tr > th {
+  background-color: var(--primary-bg-color) !important;
+  color: var(--primary-content-color) !important;
+}
+
+.ant-table-tbody > tr > td {
+  background-color: var(--primary-bg-color) !important;
+  color: var(--primary-content-color) !important;
+}
+
+/* =============================== For All Charts Design  =============================== */
+tspan {
+  font-size: 10px;
+}
+
+.recharts-legend-item-text {
+  font-size: 10px;
+}
+
+/* For Sidebar Design */
+.sidebar_container::-webkit-scrollbar {
+  width: 0;
+}
+
+/*=============================== For Scrollbar Design ===============================*/
+
+/* Set the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Set the background color of the scrollbar track (the area behind the scrollbar thumb) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Set the color and style of the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+/* Set the color and style of the scrollbar thumb when hovering over it */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

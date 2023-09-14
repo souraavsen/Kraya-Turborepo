@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-bg-color: rgb(250, 250, 250);
+    --secondary-bg-color: #00218f;
+    --accent-bg-color: rgb(242, 242, 255);
+
+    --primary-content-color: rgb(34, 34, 34);
+    --secondary-content-color: rgb(12, 0, 71);
+    --accent-content-color: rgb(255, 255, 255);
+    --custom-rose-color: rgb(190 18 60);
+
+    --button-blue: rgba(67, 126, 247, 1);
+  }
+
+  /* @media (prefer-color-scheme: dark) {
+    :root {
+      --primary-bg-color: rgb(18, 18, 19);
+      --secondary-bg-color: rgb(0, 33, 143);
+      --accent-bg-color: rgb(27, 28, 35);
+      --primary-content-color: rgb(245, 245, 245);
+      --secondary-content-color: rgb(131, 131, 131);
+      --btn-bg-color: linear-gradient(
+        270deg,
+        rgb(94, 177, 251) 0%,
+        rgb(97, 118, 252) 49.31%,
+        rgb(159, 144, 251) 100%
+      );
+    }
+  } */
+  :root[data-theme="dark"] {
+    --primary-bg-color: rgb(22, 21, 29);
+    --secondary-bg-color: rgb(0, 33, 143);
+    --accent-bg-color: rgb(27, 28, 35);
+    --primary-content-color: rgb(255, 255, 255);
+    --secondary-content-color: rgb(247, 247, 247);
+    --accent-content-color: rgb(255, 255, 255);
+
+    --custom-rose-color: rgb(180, 28, 66);
+    --button-blue: rgba(67, 126, 247, 1);
+  }
+}
