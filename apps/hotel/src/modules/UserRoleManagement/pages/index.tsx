@@ -5,7 +5,7 @@ import AdminNavbar from "../../../components/Navbar/AdminNavbar";
 import DeleteModule from "../components/DeleteModule";
 import RoleBasedUsers from "../components/RoleBasedUsers";
 import RoleManagementForm from "../components/RoleManagementForm";
-import Button from "../../../components/lib/Button";
+import {Button} from "shared";
 
 const UserRoleManagement: React.FC = () => {
   const [isAddUserRoleOpen, setIsAddUserRoleOpen] = useState<boolean>(false);

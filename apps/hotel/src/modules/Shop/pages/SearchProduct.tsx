@@ -1,10 +1,10 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import CustomBreadcrumb from "../../../components/lib/Breadcrumb";
+import {CustomBreadcrumb} from "shared";
 import Copyright from "../../../components/Footer/Copyright";
 import AdminNavbar from "../../../components/Navbar/AdminNavbar";
-import Button from "../../../components/lib/Button";
+import {Button} from "shared";
 import Filter from "../components/SearchProduct/Filter";
 import Product from "../components/SearchProduct/Product";
 import SortProducts from "../components/SearchProduct/SortProducts";

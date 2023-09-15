@@ -2,7 +2,7 @@ import React from "react";
 import UserProfile from "./UserProfile";
 import { AdminNavabrPropsT } from "./types";
 import Search from "../../assets/Icons/Search";
-import Input from "../lib/Input/Input";
+import {Input} from "shared";
 
 const AdminNavbar: React.FC<AdminNavabrPropsT> = ({
   title,

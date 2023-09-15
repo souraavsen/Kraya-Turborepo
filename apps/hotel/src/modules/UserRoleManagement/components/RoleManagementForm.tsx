@@ -2,9 +2,8 @@ import { Form, Modal,  message } from "antd";
 import React from "react";
 import { ModalContainerPropsT } from "../../../types";
 import PermissionDetails from "./PermissionDetails";
-import Button from "../../../components/lib/Button";
-import Input from "../../../components/lib/Input/Input";
-import CheckBox from "../../../components/lib/Checkbox";
+// import Input from "../../../components/lib/Input/Input";
+import {Input,CheckBox,Button} from "shared";
 
 const RoleManagementForm: React.FC<ModalContainerPropsT> = ({
   action,

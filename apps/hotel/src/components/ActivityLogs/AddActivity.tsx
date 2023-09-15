@@ -1,6 +1,6 @@
 import { PlusCircleOutlined, SendOutlined } from "@ant-design/icons";
 import React from "react";
-import Input from "../lib/Input/Input";
+import {Input} from "shared";
 
 const AddActivity: React.FC = () => {
   return (

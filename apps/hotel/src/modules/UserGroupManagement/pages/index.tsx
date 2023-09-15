@@ -5,7 +5,7 @@ import AdminNavbar from "../../../components/Navbar/AdminNavbar";
 import DeleteUserGroup from "../components/DeleteUserGroup";
 import Group from "../components/Group";
 import UserGroupForm from "../components/UserGroupForm";
-import Button from "../../../components/lib/Button";
+import {Button} from "shared";
 
 const UserGroupManagement: React.FC = () => {
   const [addUserGroupOpen, setAddUserGroupOpen] = useState<boolean>(false);

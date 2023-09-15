@@ -2,7 +2,7 @@ import { DownOutlined } from "@ant-design/icons";
 import { Collapse } from "antd";
 import { CheckboxChangeEvent } from "antd/es/checkbox";
 import React from "react";
-import CheckBox from "../../../../components/lib/Checkbox";
+import {CheckBox} from "shared";
 
 const { Panel } = Collapse;
 

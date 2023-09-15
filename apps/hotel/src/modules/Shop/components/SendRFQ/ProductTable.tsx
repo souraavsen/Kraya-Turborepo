@@ -2,7 +2,7 @@ import { Table } from "antd";
 import { ColumnsType } from "antd/es/table";
 import React from "react";
 import DeleteBin from "../../../../assets/Icons/DeleteBin";
-import Input from "../../../../components/lib/Input/Input";
+import {Input} from "shared";
 
 const ProductTable: React.FC = () => {
   const columns: ColumnsType<any> = [

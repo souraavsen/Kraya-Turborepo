@@ -8,7 +8,8 @@ import type {
 } from "antd/es/table/interface";
 import React, { useState } from "react";
 import DotMenu from "../../../assets/Icons/DotMenu";
-import ActivityLogs from "../../../components/ActivityLogs";
+// import ActivityLogs from "../../../components/ActivityLogs";
+import {ActivityLogs} from "shared";
 import { paginationConfig } from "../../../components/CustomAntd/conf";
 import { recentRFQData } from "../constants";
 import { RecentRFQDataT } from "../types";

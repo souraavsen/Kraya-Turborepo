@@ -4,7 +4,7 @@ import RingingBell from "../../assets/Icons/RingingBell";
 import Shop from "../../assets/Icons/Shop";
 import Avatar from "../../assets/Images/avatar.png";
 import HeartOutlined from "../../assets/Icons/HeartOutlined";
-import Button from "../lib/Button";
+import {Button} from "shared";
 
 
 const UserProfile: React.FC = () => {

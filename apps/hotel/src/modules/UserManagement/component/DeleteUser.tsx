@@ -1,7 +1,7 @@
 import { Modal, message } from "antd";
 import React from "react";
 import { ModalContainerPropsT } from "../../../types";
-import Button from "../../../components/lib/Button";
+import {Button} from "shared";
 
 const DeleteUser: React.FC<ModalContainerPropsT> = ({ open, handleCancel }) => {
   const handleAddUserGroup = () => {

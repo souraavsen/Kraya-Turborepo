@@ -1,7 +1,7 @@
 import { Form } from "antd";
 import { useState } from "react";
 import { BrandLogo } from "../../../assets/Icons/BrandLogo";
-import Input from "../../../components/lib/Input/Input";
+import {Input} from "shared";
 
 const LoginFrom = () => {
   const [ifRememberMe, setIfRememberMe] = useState<boolean>(false);

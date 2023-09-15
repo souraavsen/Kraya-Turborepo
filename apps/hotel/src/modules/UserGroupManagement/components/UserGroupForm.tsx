@@ -2,9 +2,7 @@ import { Form, Modal, Switch, message } from "antd";
 import React, { useState } from "react";
 import Cross from "../../../assets/Icons/Cross";
 import avatar from "../../../assets/Images/user1.png";
-import Button from "../../../components/lib/Button";
-import Input from "../../../components/lib/Input/Input";
-import Select from "../../../components/lib/Select";
+import {Button, Input, Select} from "shared";
 import { ModalContainerPropsT } from "../../../types";
 
 const UserGroupForm: React.FC<ModalContainerPropsT> = ({

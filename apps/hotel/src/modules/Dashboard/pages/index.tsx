@@ -6,7 +6,8 @@ import Overview from "../components/Overview";
 import SecondSummary from "../components/SecondSummary";
 import ThirdSummary from "../components/ThirdSummary";
 import { filterType } from "../constants";
-import Button from "../../../components/lib/Button";
+// import Button from "../../../components/lib/Button";
+import {Button} from "shared";
 
 const Dashboard = () => {
   const [activeFilter, setActiveFilter] = useState<string>("Weekly");

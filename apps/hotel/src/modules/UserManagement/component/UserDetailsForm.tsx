@@ -2,9 +2,8 @@ import { Form, Modal, Switch, message } from "antd";
 import React from "react";
 import { ModalContainerPropsT } from "../../../types";
 import { UserRoles } from "../../UserGroupManagement/constants";
-import Button from "../../../components/lib/Button";
-import Input from "../../../components/lib/Input/Input";
-import Select from "../../../components/lib/Select";
+import {Button, Input, Select} from "shared";
+
 
 const UserDetailsForm: React.FC<ModalContainerPropsT> = ({
   action,

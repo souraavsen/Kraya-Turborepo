@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import SwiperCore from "swiper/core";
 import { Navigation, Pagination } from "swiper/modules";
-import CustomBreadcrumb from "../../../components/lib/Breadcrumb";
+// import CustomBreadcrumb from "../../../components/lib/Breadcrumb";
+import {CustomBreadcrumb} from "shared";
 import Copyright from "../../../components/Footer/Copyright";
 import AdminNavbar from "../../../components/Navbar/AdminNavbar";
 import Details from "../components/ProductDetails/Details";

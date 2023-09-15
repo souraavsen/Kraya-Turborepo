@@ -5,7 +5,7 @@ import AdminNavbar from "../../../components/Navbar/AdminNavbar";
 import DeleteUser from "../component/DeleteUser";
 import UserDetails from "../component/UserDetails";
 import UserDetailsForm from "../component/UserDetailsForm";
-import Button from "../../../components/lib/Button";
+import {Button} from "shared";
 
 const UserManagement: React.FC = () => {
   const [isAddUserOpen, setIsAddUserOpen] = useState<boolean>(false);

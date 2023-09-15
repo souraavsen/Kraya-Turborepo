@@ -4,7 +4,7 @@ import AdminNavbar from "../../../components/Navbar/AdminNavbar";
 import FeaturedCategories from "../components/ShopLanding/FeaturedCategories";
 import FeaturedVendors from "../components/ShopLanding/FeaturedVendors";
 import ProductSlider from "../components/ShopLanding/ProductSlider";
-import Button from "../../../components/lib/Button";
+import {Button} from "shared";
 import { useNavigate } from "react-router-dom";
 
 const Shop: React.FC = () => {

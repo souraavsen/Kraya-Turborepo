@@ -10,7 +10,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Chart from "../../../../assets/Icons/Chart";
 import LocationPin from "../../../../assets/Icons/LocationPin";
-import Button from "../../../../components/lib/Button";
+import {Button} from "shared";
 
 const Details: React.FC<any> = ({
   productDetails,

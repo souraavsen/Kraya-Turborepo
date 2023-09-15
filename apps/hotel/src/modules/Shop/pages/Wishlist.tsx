@@ -1,10 +1,8 @@
 import { MailOutlined } from "@ant-design/icons";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import CustomBreadcrumb from "../../../components/lib/Breadcrumb";
 import AdminNavbar from "../../../components/Navbar/AdminNavbar";
-import Button from "../../../components/lib/Button";
-import CheckBox from "../../../components/lib/Checkbox";
+import {CustomBreadcrumb,Button, CheckBox} from "shared";
 import Product from "../components/SearchProduct/Product";
 
 const Wishlist: React.FC = () => {
